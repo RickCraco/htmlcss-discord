@@ -1,0 +1,21 @@
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+
+/* Header */
+
+header{
+    height: 750px;
+    background-image: url('../img/jumbo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
