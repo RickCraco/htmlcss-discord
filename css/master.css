@@ -6,16 +6,32 @@
     box-sizing: border-box;
 }
 
+:root{
+    --color-white-bg: #ffffff;
+    --color-black: #23272a;
+    --color-bg: #f6f6f6;
+    --color-header-bg: #2a5ee8;
+    --color-violet: #7289da;
+}
+
 .debug{
     border: 1px solid black;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /* Header */
 
 header{
-    height: 750px;
-    background-image: url('../img/jumbo.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: var(--color-header-bg);
+
 }
+
+
+/* Main */
+
+
+/* Footer */
