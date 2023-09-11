@@ -34,7 +34,6 @@ section{
 
 .flex{
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -73,6 +72,12 @@ a{
     padding: 5px;
 }
 
+.section-flex{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
 /* Header */
 
 header{
@@ -103,6 +108,16 @@ h1{
 
 /* Main */
 
+h2{
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
 
 /* Footer */
 
