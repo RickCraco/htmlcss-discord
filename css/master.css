@@ -21,6 +21,23 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 5px;
+}
+
+section{
+    padding: 60px 0;
+}
+
+.grey-section{
+    background-color: var(--color-bg);
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 
 /* Header */
@@ -35,3 +52,8 @@ header{
 
 
 /* Footer */
+
+footer{
+    background-color: var(--color-black);
+    color: white;
+}
