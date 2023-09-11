@@ -40,6 +40,39 @@ section{
     align-content: center;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px;
+}
+
+.hero-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.button-white{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.button-black{
+    color: white;
+    background-color: var(--color-black);
+    border-radius: 20px;
+    padding: 5px;
+}
+
 /* Header */
 
 header{
@@ -47,6 +80,26 @@ header{
 
 }
 
+#hero{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 710px;
+}
+
+.hero-container{
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 60px;
+    color: white;
+}
+.p-header{
+    text-align: center;
+    color: white;
+}
 
 /* Main */
 
