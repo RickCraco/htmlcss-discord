@@ -78,6 +78,14 @@ a{
     justify-content: center;
 }
 
+.section-flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
 /* Header */
 
 header{
