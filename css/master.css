@@ -200,6 +200,10 @@ h3{
     opacity: 0.04;
 }
 
+.reverse{
+    transform: rotate(180deg)
+}
+
 /* Footer */
 
 footer{
